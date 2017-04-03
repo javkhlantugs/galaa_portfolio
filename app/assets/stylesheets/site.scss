@@ -1,0 +1,48 @@
+// Place all the styles related to the site controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body, html {
+	height: 100%;
+	width: 100%;
+	min-width: 800px;
+	background-image: url('/assets/space.png');
+	background-size: cover;
+	background-attachment: fixed;
+	// height: 1100px;
+}
+
+.intro-container {
+	position: relative;
+	width: 100%;
+}
+.moon-name {
+	right: 0;
+	width: 60%;
+	min-width: 550px;
+	position:absolute;
+	top: -100px;
+}
+.intro-absolute {
+	position: absolute;
+
+}
+.moon {
+	right: 0;
+}
+.gary {
+	display: inline-block;
+	color: white;
+}
+.gary-container {
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%);
+	transform: translateX(-50%);
+}
+
+.container {
+	background-image: url('/assets/stars');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
