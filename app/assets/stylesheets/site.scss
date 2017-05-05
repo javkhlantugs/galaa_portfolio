@@ -5,15 +5,23 @@ body, html {
 	height: 100%;
 	width: 100%;
 	min-width: 800px;
-	background-image: url('/assets/space.png');
+	background-image: url('/assets/space.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	// height: 1100px;
 }
 
+.container {
+	background-image: url('/assets/stars');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow: auto;
+}
+//intro
 .intro-container {
 	position: relative;
 	width: 100%;
+	background-color: rgba(0, 0, 255, 0.1);
 }
 .moon-name {
 	right: 0;
@@ -22,16 +30,19 @@ body, html {
 	position:absolute;
 	top: -100px;
 }
+
+.moon {
+	right: 0;
+}
 .intro-absolute {
 	position: absolute;
 
 }
-.moon {
-	right: 0;
-}
+// galaa ner
 .gary {
 	display: inline-block;
 	color: white;
+	font-size: 40px;
 }
 .gary-container {
 	top: 50%;
@@ -39,10 +50,53 @@ body, html {
 	transform: translateY(-50%);
 	transform: translateX(-50%);
 }
+.gary-ner {
+font-family: 'Righteous', cursive;
 
-.container {
-	background-image: url('/assets/stars');
-	background-repeat: no-repeat;
-	background-size: 100% auto;
+
+
+}
+.filmmaker {
+	font-family: 'Megrim', cursive;
+
+
+}
+//quotes
+
+.quote {
+	width: 100%;
+	background-color: rgba(0, 0, 128, 0.3);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	
+}
+.absolute-positions{
+	position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.borders {
+	border: 1px solid rgba(255, 255, 255, .3);
+	top: 50%;
 }
 
+.border-out {
+	height: 90%;
+	width: 94%;
+}
+
+.border-in {
+	height: 89%;
+	width: 93%;
+}
+
+.the-quote {
+	position: absolute;
+	text-align: center;	
+	top: 30%;
+	font-size: 24px;
+	font-style: italic;
+	line-height: 30px;
+	color: white;
+}
